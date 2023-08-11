@@ -1,0 +1,14 @@
+git init            -- initlial it with git repo
+git add .           -- to take code from working to staging
+git add fileName    -- to take only one code from working to staging
+git commit -m "msg" -- commit to take code from staging tp local repo
+git branch -M main  - to create the branch
+git remote add origin https://github.com/Minskoleopc/gitZorbaF.git 
+- to connect local with remote repo (one and different for every user)
+git push -u origin main - pushing code from local to remote
+git pull -m origin main - pulling code from remote to local branch
+git branch              - to check total number of branches and which one is current branch
+git branch branchName   - to create a new branch
+git checkout branchName - to switch branch
+git log                               - to check latest commit
+git branchName -D branchName          - to delete branch
